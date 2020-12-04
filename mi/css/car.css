@@ -1,0 +1,207 @@
+.head {
+    width: 10rem;
+    height: 1.333333rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    font-size: 0.416667rem;
+    color: rgb(102, 102, 102);
+    padding: 0 0.533333rem 0 0.533333rem;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    /* border: 1px solid red; */
+}
+
+.head i {
+    font-size: 0.666667rem;
+}
+
+.nologin {
+    height: 1.444267rem;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    margin-top: 1.333333rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.533333rem 0 0.533333rem;
+}
+
+.nologin p {
+    color: rgba(0, 0, 0, .87);
+    font-size: 0.444445rem;
+}
+
+.nologin span {
+    color: rgba(0, 0, 0, .54);
+    font-size: 0.333333rem;
+}
+
+.noitems {
+    padding: 0.277779rem;
+    font-size: 0.333333rem;
+    text-align: center;
+    background-color: #ebebeb;
+    /* border: 1px solid red; */
+}
+
+.noitems a {
+    height: 2rem;
+}
+
+.noitems a span {
+    padding: 0 0.222213rem 0 1.333333rem;
+    display: inline-block;
+    line-height: 1.093333rem;
+    background: url(../img/w-img/car-1.png) no-repeat 0;
+    background-size: auto 100%;
+    color: rgba(0, 0, 0, .27);
+}
+
+.noitems a em {
+    display: inline-block;
+    height: 0.640827rem;
+    line-height: 0.640827rem;
+    padding: 0 0.333333rem;
+    border: 1px solid rgba(0, 0, 0, .15);
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, .87);
+}
+
+.content .top-img img {
+    height: 1.666667rem;
+}
+
+.content .list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content .list .goods-item {
+    width: 4.950133rem;
+}
+
+.content .list .goods-item .goods-img img {
+    width: 4.950133rem;
+    height: 4.950133rem;
+}
+
+.content .list .goods-item .goods-info {
+    padding: 0.25rem 0.361112rem 0.305555rem;
+}
+
+.content .list .goods-item .goods-info .goods-name {
+    font-size: 0.388888rem;
+    color: #3c3c3c;
+}
+
+.content .list .goods-item .goods-info .goods-price {
+    font-size: 0.444445rem;
+    color: #ff6700;
+}
+
+
+/* 公共 */
+
+.common {
+    height: 1.386667rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    /* border: 1px solid red; */
+}
+
+.common a {
+    display: block;
+    text-align: center;
+    height: 1.0408rem;
+}
+
+.common a .img1 {
+    display: inline-block;
+    width: 0.555467rem;
+    height: 0.555467rem;
+    margin: 0 0.690427rem 0.13888rem 0.69rem;
+    background: url(../img/w-img/common-1.png) no-repeat center center;
+    background-size: cover;
+}
+
+.common a .img2 {
+    display: inline-block;
+    width: 0.555467rem;
+    height: 0.555467rem;
+    margin: 0 0.690427rem 0.13888rem 0.69rem;
+    background: url(../img/w-img/common-2.png) no-repeat center center;
+    background-size: cover;
+}
+
+.common a .img3 {
+    display: inline-block;
+    width: 0.555467rem;
+    height: 0.555467rem;
+    margin: 0 0.690427rem 0.13888rem 0.69rem;
+    background: url(../img/w-img/common-3.png) no-repeat center center;
+    background-size: cover;
+}
+
+.common a .img4 {
+    display: inline-block;
+    width: 0.555467rem;
+    height: 0.555467rem;
+    margin: 0 0.690427rem 0.13888rem 0.69rem;
+    background: url(../img/w-img/common-44.png) no-repeat center center;
+    background-size: cover;
+}
+
+.common a .img5 {
+    display: inline-block;
+    width: 0.555467rem;
+    height: 0.555467rem;
+    margin: 0 0.690427rem 0.13888rem 0.69rem;
+    background: url(../img/w-img/common-5.png) no-repeat center center;
+    background-size: cover;
+}
+
+.common .c1:hover .img1 {
+    background-image: url(../img/w-img/common-11.png);
+}
+
+.common .c2:hover .img2 {
+    background-image: url(../img/w-img/common-22.png);
+}
+
+.common .c3:hover .img3 {
+    background-image: url(../img/w-img/common-33.png);
+}
+
+.common .c4:hover .img4 {
+    background-image: url(../img/w-img/common-44.png);
+}
+
+.common .c5:hover .img5 {
+    background-image: url(../img/w-img/common-55.png);
+}
+
+.common a:hover span {
+    color: #ff6700;
+}
+
+.common a span {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    font-size: 0.32rem;
+    color: #999999;
+    vertical-align: top;
+    margin-top: -0.203333rem;
+}
+
+.common a:nth-child(4) span {
+    color: #ff6700;
+}
